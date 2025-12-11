@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/Picture.png">
+    <title>Elite SST</title>
+</head>
+
+<body>
+
+    <!-- ========================================================= -->
+    <!-- ====================== CABEÇALHO ========================= -->
+    <!-- ========================================================= -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <!-- LOGO + TEXTO -->
+            <div class="brand">
+                <h1>
+                    <a href="#">
+                        <img src="image/Picture.png" alt="Elite SST" class="logo">
+                        Elite SST
+                    </a>
+                </h1>
+                <p class="tag">Segurança do Trabalho</p>
+            </div>
+
+            <!-- MENU DESKTOP -->
+            <nav class="main-nav" aria-label="Menu principal">
+                <a href="#treinamentos">Treinamentos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <!-- MENU MOBILE -->
+            <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+        </div>
+
+        <div id="mobile-menu" aria-label="Menu principal" class="mobile-menu" hidden>
+            <a href="#treinamentos">Treinamentos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <button id="open-modal" class="login-btn" hidden>Login</button>
+        </div>
+
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- ===================== CONTEÚDO PRINCIPAL ================= -->
+    <!-- ========================================================= -->
+    <main>
+
+        <!-- ===================== HERO ======================= -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Consultoria em Segurança do Trabalho</h2>
+                <p>
+                    Nosso compromisso é entregar soluções claras e eficazes para ambientes mais seguros e livres de
+                    riscos.
+                </p>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- ================== TREINAMENTOS ========================= -->
+        <!-- ========================================================= -->
+        <section id="treinamentos" class="section">
+            <div class="container">
+                <h2>Treinamentos Ofertados</h2>
+                <p class="lead">Capacitações e cursos especializados para sua empresa.</p>
+
+                <div class="cards">
+
+                    <!-- ===== TREINAMENTO 1 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-5" class="card-img">
+                        <h3>NR 05 - CIPA - Formação e reciclagem completa para cipeiros, com foco em prevenção de
+                            acidentes e análise de riscos.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 2 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-6" class="card-img">
+                        <h3>NR 06 - EPI - Uso correto, higienização, conservação e responsabilidades legais.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 3 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-10" class="card-img">
+                        <h3>NR 10 - Segurança em Instalações Elétricas - Treinamentos Básico (40h)
+                            e SEP (40h), com práticas supervisionadas.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 4 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-11" class="card-img">
+                        <h3> NR 11 - Transporte e Movimentação de Materiais - Inclui operação de empilhadeira, talhas,
+                            pontes rolantes e transpaleteiras.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 5 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-12" class="card-img">
+                        <h3> NR 12 - Segurança em Máquinas e Equipamentos - Conteúdo técnico sobre riscos,
+                            dispositivos de segurança e procedimentos operacionais.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 6 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-18" class="card-img">
+                        <h3> NR 18 - Construção Civil - Treinamento em andaime e plataformas elevatórias
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 7 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-20" class="card-img">
+                        <h3> NR 20 - Inflamáveis e Combustíveis - Cursos Nível 1, 2 e 3, com simulações e análise de
+                            cenários.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 8 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-21" class="card-img">
+                        <h3> NR 21 Trabalhos a Céu Aberto Estabelece medidas para prevenir riscos e garantir a
+                            proteção dos trabalhadores em atividades externas.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 9 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-23" class="card-img">
+                        <h3> NR 23 - Prevenção e Combate a Incêndio - Inclui brigada de incêndio e prática com
+                            extintores.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 10 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-26" class="card-img">
+                        <h3>NR 26 - Sinalização de Segurança - Classificação de produtos, GHS, cores e simbologias.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 11 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-33" class="card-img">
+                        <h3>NR 33 - Espaço Confinado - Formação, reciclagem, vigia, supervisor e resgate.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 12 ===== -->
+                    <div class="card">
+                        <img src="image/my masterpiece.jpg" alt="Treinamento NR-35" class="card-img">
+                        <h3>NR 35 - Trabalho em Altura - Treinamentos com práticas reais, montagem de sistemas e análise
+                            de riscos.
+                        </h3>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- =============== MODAL NR-5 ============================== -->
+        <!-- ========================================================= -->
+
+        <div id="modal-nr5" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+
+                <h2>lorem</h2>
+
+                <img src="image/my masterpiece.jpg" alt="Treinamento NR-5" class="modal-media">
+
+
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- ================== SERVIÇOS ============================= -->
+        <!-- ========================================================= -->
+
+        <section id="servicos" class="container section">
+            <h2>Nossos Serviços</h2>
+            <p class="lead">Soluções personalizadas em SST para sua empresa.</p>
+
+            <div class="cards">
+
+                <article class="card">
+                    <img src="image/Imagem para por no Consultoria de segurança .png" class="card-img">
+                    <h3>Treinamentos</h3>
+                    <p class="price">R$500 • h</p>
+                    <button class="btn agendar" data-servico="Treinamentos">Agendar</button>
+                </article>
+
+                <article class="card">
+                    <img src="image/Imagem para por no Consultoria de segurança .png" class="card-img">
+                    <h3>Documentação</h3>
+                    <p class="price">R$500 • h</p>
+                    <button class="btn agendar" data-servico="Documentação">Agendar</button>
+                </article>
+
+                <article class="card">
+                    <img src="image/Imagem para por no Consultoria de segurança .png" class="card-img">
+                    <h3>Assessoria</h3>
+                    <p class="price">R$500 • h</p>
+                    <button class="btn agendar" data-servico="Assessoria">Agendar</button>
+                </article>
+
+                <article class="card">
+                    <img src="image/Imagem para por no Consultoria de segurança .png" class="card-img">
+                    <h3>Workshop</h3>
+                    <p class="price">R$500 • h</p>
+                    <button class="btn agendar" data-servico="Workshop">Agendar</button>
+                </article>
+
+                <article class="card">
+                    <img src="image/Imagem para por no Consultoria de segurança .png" class="card-img">
+                    <h3>Suporte Técnico</h3>
+                    <p class="price">R$500 • h</p>
+                    <button class="btn agendar" data-servico="Suporte Técnico">Agendar</button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- ===================== SOBRE ============================= -->
+        <!-- ========================================================= -->
+
+        <section id="sobre" class="container section sobre">
+            <h2>Sobre a Elite SST</h2>
+
+            <p>
+                A <strong>Elite SST</strong> é especializada em soluções completas de Saúde e Segurança do Trabalho.
+                Atuamos com treinamentos, consultorias, documentações e suporte técnico conforme as NRs.
+            </p>
+
+            <h3>Missão</h3>
+            <p>Promover ambientes de trabalho seguros e saudáveis através de soluções técnicas e eficazes.</p>
+
+            <h3>Visão</h3>
+            <p>Ser referência nacional em Segurança do Trabalho.</p>
+
+            <h3>Valores</h3>
+            <ul class="valores-lista">
+                <li>Compromisso com a vida.</li>
+                <li>Excelência técnica.</li>
+                <li>Ética e transparência.</li>
+                <li>Inovação constante.</li>
+                <li>Foco no cliente.</li>
+                <li>Responsabilidade social.</li>
+            </ul>
+
+            <h3>Objetivo</h3>
+            <p>
+                Garantir conformidade legal e proteção aos trabalhadores por meio de treinamentos, documentos e
+                consultoria contínua.
+            </p>
+
+            <h3>Relatório Inicial</h3>
+            <p>Avaliamos riscos, obrigações legais e necessidades para adequação às NRs.</p>
+
+            <h3>Propósito</h3>
+            <p>Proteger vidas e fortalecer a cultura de segurança nas empresas.</p>
+
+            <h3>Público-Alvo</h3>
+            <p>Indústrias, comércios, construção civil, escolas, escritórios, ONGs e órgãos públicos.</p>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- ===================== CONTATO =========================== -->
+        <!-- ========================================================= -->
+
+        <section id="contato" class="container section">
+            <h2>Contato</h2>
+
+            <form id="formContato" class="form">
+                <label>Nome <input type="text" name="nome" required></label>
+                <label>Email <input type="email" name="email" required></label>
+                <label>Telefone <input type="tel" name="telefone" placeholder="(71) 9xxxx-xxxx"></label>
+
+                <label>Serviço de interesse
+                    <select name="servico" required>
+                        <option value="">Selecione um serviço</option>
+                        <option>Treinamentos</option>
+                        <option>Documentação</option>
+                        <option>Assessoria</option>
+                        <option>Workshop</option>
+                        <option>Suporte Técnico</option>
+                    </select>
+                </label>
+
+                <label>Mensagem
+                    <textarea name="mensagem" rows="4"></textarea>
+                </label>
+
+                <button type="submit" class="btn primary">Enviar mensagem</button>
+            </form>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- ===================== MODAL LOGIN ======================= -->
+        <!-- ========================================================= -->
+
+        <div id="auth-modal" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn" id="close-modal">&times;</button>
+
+                <!-- LOGIN -->
+                <div id="login-form" class="form-box active">
+                    <h2>Entrar</h2>
+                    <form>
+                        <label>Email<input type="email" required></label>
+                        <label>Senha<input type="password" required></label>
+                        <button class="btn primary">Entrar</button>
+                    </form>
+                    <p>Não tem conta? <a id="show-register">Cadastre-se</a></p>
+                </div>
+
+                <!-- CADASTRO -->
+                <div id="register-form" class="form-box">
+                    <h2>Criar conta</h2>
+                    <form>
+                        <label>Nome<input type="text" required></label>
+                        <label>Email<input type="email" required></label>
+                        <label>Senha<input type="password" required></label>
+                        <button class="btn primary">Cadastrar</button>
+                    </form>
+                    <p>Já tem conta? <a id="show-login">Entrar</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOAST -->
+        <div id="toast" class="toast" hidden>
+            <p>✅ Serviço agendado com sucesso!</p>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- ======================= RODAPÉ ========================== -->
+        <!-- ========================================================= -->
+        <footer class="site-footer">
+            <div class="container">
+                <p>Email: <a href="mailto:elitesst@gmail.com">elitesst@gmail.com</a></p>
+                <p>Telefone: <a href="tel:+5571999999999">(71) 99999-9999</a></p>
+                <p>© <span id="ano"></span> Elite SST — Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <!-- BOTÃO DE VOLTAR AO TOPO -->
+        <button id="back-to-top" class="back-to-top" hidden>↑</button>
+
+        <!-- JAVASCRIPT -->
+        <script src="script.js" defer></script>
+
+    </main>
+</body>
+
+</html>
